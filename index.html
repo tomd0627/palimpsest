@@ -11,21 +11,23 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <canvas
-      id="canvas"
-      role="img"
-      aria-label="Decorative generative art. Layers of text and abstract marks accumulate on a parchment ground, each periodic wash ghosting what came before."
-    ></canvas>
-    <nav class="controls" aria-label="Animation controls">
-      <button class="btn" id="btn-pause" aria-pressed="false" title="Pause (Space)">
-        <span class="btn-icon" aria-hidden="true">‖</span>
-        <span class="btn-label">Pause</span>
-      </button>
-      <button class="btn" id="btn-reset" title="Reset (R)">
-        <span class="btn-icon" aria-hidden="true">↺</span>
-        <span class="btn-label">Reset</span>
-      </button>
-    </nav>
+    <main>
+      <canvas
+        id="canvas"
+        role="img"
+        aria-label="Decorative generative art. Layers of text and abstract marks accumulate on a parchment ground, each periodic wash ghosting what came before."
+      ></canvas>
+      <nav class="controls" aria-label="Animation controls">
+        <button class="btn" id="btn-pause" type="button" aria-pressed="false" title="Pause (Space)">
+          <span class="btn-icon" aria-hidden="true">‖</span>
+          <span class="btn-label">Pause</span>
+        </button>
+        <button class="btn" id="btn-reset" type="button" title="Reset (R)">
+          <span class="btn-icon" aria-hidden="true">↺</span>
+          <span class="btn-label">Reset</span>
+        </button>
+      </nav>
+    </main>
     <script type="module" src="js/main.js"></script>
   </body>
 </html>
