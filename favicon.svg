@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" fill="#f4efe6"/>
+  <text x="6" y="25" font-family="Georgia, serif" font-size="23" fill="rgba(35,25,15,0.18)" transform="rotate(-5 16 16)">P</text>
+  <text x="8" y="24" font-family="Georgia, serif" font-size="21" fill="rgba(90,58,32,0.60)" transform="rotate(2 16 16)">P</text>
+  <line x1="5" y1="19" x2="27" y2="13" stroke="rgba(35,25,15,0.25)" stroke-width="0.9" stroke-linecap="round"/>
+</svg>
